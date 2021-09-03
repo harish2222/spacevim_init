@@ -11,14 +11,14 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "palenight"
+    colorscheme = "gruvbox-material"
     colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
     enable_guicolors = true
     # Disable statusline separator, if you want to use other value, please
     # install nerd fonts
-    statusline_separator = "fire"
+    statusline_separator = "slant"
     statusline_iseparator = "fire"
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
@@ -143,22 +143,11 @@ name = "lang#typescript"
 [[layers]]
 name = "lang#rust"
 
-# Enable autocomplete layer
 [[layers]]
-name = 'autocomplete'
-auto_completion_return_key_behavior = "complete"
-auto_completion_tab_key_behavior = "smart"
+name = 'git'
 
 [[layers]]
-name = 'shell'
-default_position = 'top'
-default_height = 30
-
-[[layers]]
-    name = 'git'
-
-[[layers]]
-    name = 'VersionControl'
+  name = 'VersionControl'
 
 [[layers]]
 name = "fzf"
@@ -266,9 +255,6 @@ name = "fzf"
 
 [[layers]]
   name = "lang#xml"
-
-[[layers]]
-  name = "leaderf"
   
 [[layers]]
   name = "mail"
@@ -288,4 +274,27 @@ name = "fzf"
 [[layers]]  
   name = "tools#screensaver"
 
+[[custom_plugins]]
+  repo = "tomasr/molokai"
+  # note: you need to disable merged feature
+  merged = false
+ 
+[[custom_plugins]]
+  repo = "sainnhe/gruvbox-material" 
+  # note: you need to disable merged feature
+  merged = false
+ 
+[[custom_plugins]]
+  repo = "ayu-theme/ayu-vim" 
+  # note: you need to disable merged feature
+  merged = false
   
+[[custom_plugins]]
+  repo = "ryanoasis/vim-devicons" 
+  # note: you need to disable merged feature
+  merged = false
+
+[[custom_plugins]]
+  repo = "rafi/awesome-vim-colorschemes" 
+  # note: you need to disable merged feature
+  merged = false
