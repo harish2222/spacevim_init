@@ -19,7 +19,7 @@
     # Disable statusline separator, if you want to use other value, please
     # install nerd fonts
     statusline_separator = "slant"
-    statusline_iseparator = "fire"
+    statusline_iseparator = "slant"
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
@@ -36,16 +36,13 @@ default_position = 'top'
 default_height = 30
 
 [[layers]]
-name = 'git'
-
-[[layers]]
 name = 'VersionControl'
 
 [[layers]] 
 name = "cscope"
 
-[[layers]]
-name = "colorscheme"
+# [[layers]]
+# name = "colorscheme"
 
 [[layers]]
 name = "gtags"
@@ -66,8 +63,8 @@ name = "lang#hack"
 [[layers]]
 name = "lang#groovy"
 
-[[layers]]
-name = "lang#graphql"
+# [[layers]]
+# name = "lang#graphql"
 
 [[layers]]
 name = "lang#ipynb"
@@ -87,12 +84,12 @@ name = "lang#matlab"
 [[layers]]
 name = "lang#powershell"
 
-[[layers]]
-name = "lang#r"
-repl_command = "R"
-enabled_linters = ['rubylint', 'rubocop']
-format_on_save = true
-
+# [[layers]]
+# name = "lang#r"
+# repl_command = "R"
+# enabled_linters = ['rubylint', 'rubocop']
+# format_on_save = true
+#
 [[layers]]
 name = "lang#toml"
 
@@ -133,15 +130,6 @@ name = "github"
 
 [[layers]]
 name = "ui"
-
-[[layers]]
-name = "lang#kotlin"
-
-[[layers]]
-name = "lang#typescript"
-  
-[[layers]]
-name = "lang#rust"
 
 [[layers]]
 name = 'git'
@@ -202,10 +190,10 @@ name = "fzf"
   name = "lang#java"
   java_formatter_jar = 'C:\google-java-format\google-java-format-1.10.0.jar'
 
-[[layers]]
-  name = 'tools#mpv'
-  mpv_interpreter = 'C:\Mpv Player\mpv.exe'
-  musics_directory = 'D:\HARISH\Music\'
+# [[layers]]
+#   name = 'tools#mpv'
+  # mpv_interpreter = 'C:\Mpv Player\mpv.exe'
+  # musics_directory = 'D:\HARISH\Music\'
 
 [[layers]]
   name = "ctrlp"
@@ -216,24 +204,21 @@ name = "fzf"
 [[layers]]
   name = "debug"
 
-[[layers]]
-  name = "ctrlpsapce"
+# [[layers]]
+#   name = "ctrlpsapce"
 
 
 [[layers]]
   name = "fuzzy"
 
-[[layers]]
-  name = "games"
-
-[[layers]]  
-  name = "denite"
+# [[layers]]
+#   name = "denite"
 
 [[layers]]
   name = "lang#dockerfile"
 
-[[layers]]
-  name = "lang#go"
+# [[layers]]
+#   name = "lang#go"
 
 [[layers]]
   name = "lang#html"
@@ -271,8 +256,8 @@ name = "fzf"
 [[layers]]
   name = "tools"
 
-[[layers]]  
-  name = "tools#screensaver"
+# [[layers]]
+#   name = "tools#screensaver"
 
 [[custom_plugins]]
   repo = "tomasr/molokai"
