@@ -11,7 +11,8 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "gruvbox-material"
+    colorscheme = "cutppuccino"
+    # colorscheme = "gruvbox-material"
     colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
@@ -35,8 +36,6 @@ name = 'shell'
 default_position = 'top'
 default_height = 30
 
-[[layers]]
-name = 'VersionControl'
 
 [[layers]] 
 name = "cscope"
@@ -60,8 +59,8 @@ name = "lang#batch"
 [[layers]]
 name = "lang#hack"
 
-[[layers]]
-name = "lang#groovy"
+# [[layers]]
+# name = "lang#groovy"
 
 # [[layers]]
 # name = "lang#graphql"
@@ -105,8 +104,8 @@ name = "lang#vue"
 [[layers]]
 name = "tools#zeal"
 
-[[layers]]
-name = "tools#dash"  
+# [[layers]]
+# name = "tools#dash"
 
 [[layers]]
 name = 'lang#c'
@@ -195,8 +194,8 @@ name = "fzf"
   # mpv_interpreter = 'C:\Mpv Player\mpv.exe'
   # musics_directory = 'D:\HARISH\Music\'
 
-[[layers]]
-  name = "ctrlp"
+# [[layers]]
+#   name = "ctrlp"
 
 [[layers]]
   name = "chat"
@@ -208,8 +207,8 @@ name = "fzf"
 #   name = "ctrlpsapce"
 
 
-[[layers]]
-  name = "fuzzy"
+# [[layers]]
+#   name = "fuzzy"
 
 # [[layers]]
 #   name = "denite"
@@ -229,8 +228,8 @@ name = "fzf"
 [[layers]]
   name = "lang#json" 
 
-[[layers]]
-  name = "nim"
+# [[layers]]
+#   name = "nim"
 
 [[layers]]
   name = "nix"
@@ -276,6 +275,11 @@ name = "fzf"
   
 [[custom_plugins]]
   repo = "ryanoasis/vim-devicons" 
+  # note: you need to disable merged feature
+  merged = false
+
+[[custom_plugins]]
+  repo = "Pocco81/Catppuccino.nvim" 
   # note: you need to disable merged feature
   merged = false
 
